@@ -2,6 +2,13 @@
 
 Python script that turns a BST **Project Summary** Excel export into Geocon’s master project budget workbook (`all_geocon_budgets.xlsx`) and syncs it to SharePoint.
 
+## Sample files
+
+| File | Description |
+|------|-------------|
+| `Project Summary.xlsx` | Raw BST export (before the script runs) |
+| `all_geocon_budgets.xlsx` | Current master budget sheet (after the script runs) |
+
 ## What it does
 
 1. Downloads the existing master file from SharePoint
